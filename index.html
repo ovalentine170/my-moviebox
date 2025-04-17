@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Box</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Movie Box</h1>
+    <div class="theme-toggle">
+      <button id="toggle-theme">Light Mode</button>
+    </div>
+    <input type="text" id="searchInput" placeholder="Search movies..." />
+    <div class="filters">
+      <button class="filter-btn active" data-genre="all">All</button>
+      <button class="filter-btn" data-genre="action">Action</button>
+      <button class="filter-btn" data-genre="animation">Animation</button>
+      <button class="filter-btn" data-genre="comedy">Comedy</button>
+      <button class="filter-btn" data-genre="drama">Drama</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="movie-grid" class="movie-grid"></div>
+    <div id="pagination" class="pagination"></div>
+  </main>
+
+  <section id="about">
+    <h2>About Movie Box</h2>
+    <p>Created by <strong>Valentine (Don Val)</strong></p>
+    <p>Email: <a href="mailto:ovalentine170@gmail.com">ovalentine170@gmail.com</a></p>
+    <p>Connect:
+      <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a> |
+      <a href="https://github.com/yourhandle" target="_blank">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Don Val. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
